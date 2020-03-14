@@ -1,38 +1,43 @@
-Key Steps for Project
-Feel free to be creative with your solutions, but do follow the CRISP-DM process in finding your solutions.
+# Udacity data science Nanodegree Project 1
 
-1) Pick a dataset.
-Boston AirBNB Data
+Licensing, Authors, and Acknowledgements
+<li><a href="#Installation">Installation</a></li>
+<li><a href="#Project Motivation">Project Motivation</a></li>
+<li><a href="#File Descriptions">File Descriptions</a></li>
+<li><a href="#Results">Results</a></li>
+<li><a href="#Licensing, Authors, and Acknowledgements">Licensing, Authors, and Acknowledgements</a></li>
 
-2) Pose at least three questions related to business or real-world applications of how the data could be used.
-The most important factors to choose an accomdation when you would like to travel are Booking Price and Guest' experince. In order to understand these factors, we are analyzing Boston AirBNB
-data:
-#Booking Price
-- What are the main factors, which affect the booking prices? Does time of the year influence prices
-- What other factors affect the price. Locality , amenities , facilities, reviews or any other 
--Finding correlation between avaibility over month year and quauter with price room type property type bed bedroom no and rating using heatmaps and corr function
+<a id='Installation'></a>
+# Installation:
+Python versions 3.*.
+- Libraries:
+- Pandas.
+- Scikit-learn.
+- numpy.
+- matplotlib.
+- seaborn.
 
-# Guest' experinces:
-- Can we find an appropriate metric for understanding the quality of guests' experience?
-- How can we link listing attributes with the customer experiences?
-- What aspects of the listings can hosts easily alter to substantially boost the guest's experience?
+<a id='Project Motivation'></a>
+# Project Motivation:
+Airbnb, Inc. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Boston, MA. This project is the first project of data sciences Udacity's Nanodegree program. In this project, we will follow the CRISP-DM process (Cross Industry Process for Data Mining). I  analyzed this dataset to find interesting outcomes and find interesting results. I asked and answered for these:
+
+- The significant factors affect booking price.
+- The most month attract the tourists.
+- The most month have lower prices.
+- The significant factors affect customer' reviews.
 
 
+<a id='File Descriptions'></a>
+# File Descriptions:
+To complete this project, you will use Jupyter Notebooks through a workspace in the classroom. Jupyter Notebooks are a great way to work with your code interactively while also being able to include descriptive and informative text to build a report. The next few concepts in this lesson will help you get started with understanding notebooks. If you would like to learn more about these tools, or you need some additional help to get started, you can check out Anaconda and Jupyter Notebooks in the "[Intro to Data Analysis](https://classroom.udacity.com/nanodegrees/nd025-mena-connect/parts/24b9c8f5-ef0f-4250-84d9-c5e8f843ed33)" Core Concept of this course.
 
 
+<a id='Results'></a>
+# Results:
+The main findings of the code can be found [here](https://medium.com/@EssamAlbishi/sharing-some-outcomes-of-analyzing-airbnb-data-21ffdb160707).
 
-3) Create a Jupyter Notebook, using any associated packages you'd like, to:
 
-Prepare data:
+<a id='Licensing, Authors, and Acknowledgements'></a>
+# Licensing, Authors, and Acknowledgements:
+https://www.kaggle.com/airbnb/boston
 
-Gather necessary data to answer your questions
-Handle categorical and missing data
-Provide insight into the methods you chose and why you chose them
-Analyze, Model, and Visualize
-
-Provide a clear connection between your business questions and how the data answers them.
-4) Communicate your business insights:
-
-Create a Github repository to share your code and data wrangling/modeling techniques, with a technical audience in mind
-Create a blog post to share your questions and insights with a non-technical audience
-Your deliverables will be a Github repo and a blog post. Use the rubric here to assist in successfully completing this project!
