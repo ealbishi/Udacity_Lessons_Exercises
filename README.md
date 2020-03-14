@@ -1,4 +1,4 @@
-# Udacity data science Nanodegree Project 1
+# Udacity data science Nanodegree lesson exercises
 
 Licensing, Authors, and Acknowledgements
 <li><a href="#Installation">Installation</a></li>
