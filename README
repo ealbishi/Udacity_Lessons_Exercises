@@ -1,0 +1,38 @@
+Key Steps for Project
+Feel free to be creative with your solutions, but do follow the CRISP-DM process in finding your solutions.
+
+1) Pick a dataset.
+Boston AirBNB Data
+
+2) Pose at least three questions related to business or real-world applications of how the data could be used.
+The most important factors to choose an accomdation when you would like to travel are Booking Price and Guest' experince. In order to understand these factors, we are analyzing Boston AirBNB
+data:
+#Booking Price
+- What are the main factors, which affect the booking prices? Does time of the year influence prices
+- What other factors affect the price. Locality , amenities , facilities, reviews or any other 
+-Finding correlation between avaibility over month year and quauter with price room type property type bed bedroom no and rating using heatmaps and corr function
+
+# Guest' experinces:
+- Can we find an appropriate metric for understanding the quality of guests' experience?
+- How can we link listing attributes with the customer experiences?
+- What aspects of the listings can hosts easily alter to substantially boost the guest's experience?
+
+
+
+
+
+3) Create a Jupyter Notebook, using any associated packages you'd like, to:
+
+Prepare data:
+
+Gather necessary data to answer your questions
+Handle categorical and missing data
+Provide insight into the methods you chose and why you chose them
+Analyze, Model, and Visualize
+
+Provide a clear connection between your business questions and how the data answers them.
+4) Communicate your business insights:
+
+Create a Github repository to share your code and data wrangling/modeling techniques, with a technical audience in mind
+Create a blog post to share your questions and insights with a non-technical audience
+Your deliverables will be a Github repo and a blog post. Use the rubric here to assist in successfully completing this project!
